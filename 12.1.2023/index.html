@@ -9,14 +9,17 @@ body{background-color: rgb(40, 36, 36);}
 main{display: flex;
 justify-content: space-evenly;
 align-items: center;}
+
 .left{background:rgb(40, 36, 36); width: 600px; height: 700px;}
 .right{background: #ffffff; width: 600px; height: 700px;}
 h2,h1{color: #ffffff;}
 label{color: rgb(166, 166, 166);}
-.massege1{width: 200px; height: 150px;}
-.button{color: #ffffff;size: 20;  background-color: rgb(216, 119, 0); width: 150px; height: 30px; }
-.inbouder{color: #000; font-size: 25px;}    
-.inbouder2{color: #3e3e3e; font-size: 20px;}   
+textarea{width: 600px;}
+button{color: #ffffff; font-size: 20px;  background-color: rgb(216, 119, 0); width: 250px; height: 30px; }
+.inbouder{color: #000; font-size: 25px; }    
+.inbouder2{color: #3e3e3e; font-size: 20px;}
+input{width: 150px;} 
+img{width: 50px;}  
     </style>
 </head>
 <body>
@@ -35,15 +38,28 @@ label{color: rgb(166, 166, 166);}
     <input type="phone" name="phone" placeholder="Phone">
     <br>
     <br>
-    <textarea class="massege1" type="massege" placeholder="Message" >
+    <textarea name="massege" cols="30" rows="10" placeholder="Massege"></textarea>
     </textarea>
         <br>
     <br>
-    <input class="button" type="submit" name="submit" value="submit">
+    <button type="submit">SUBMIT</button>
     </form>
+    <br>
+    <br>
+    <div>
+        <a href="face">
+<img src="./icon/facebook.png" alt="facebook">
+        </a>
+        <a href="inst">
+<img src="./icon/instagram.png" alt="instagram">
+        </a>
+        <a href="twi">
+<img src="icon/twitter.png" alt="twitter">
+        </a>
+    </div>
         </div>
     <div class="right">
-        <p class="inbouder">CALL US</p>
+        <p class="inbouder"><b>CALL US</b></p>
         <br>
         <br>
         <p class="inbouder2">10(102)2010-451. 1(245) 478-114</p>
@@ -51,7 +67,7 @@ label{color: rgb(166, 166, 166);}
         <br>
         <br>
         <br>
-        <p class="inbouder">LOCATION</p>
+        <p class="inbouder"><b>LOCATION</b></p>
         <br>
         <br>
         <p class="inbouder2">21 rock sreet</p>
@@ -59,7 +75,7 @@ label{color: rgb(166, 166, 166);}
         <br>
         <br>
         <br>
-        <p class="inbouder">BUSINESS</p>
+        <p class="inbouder"><b>BUSINESS</b></p>
         <br>
         <br>
         <p class="inbouder2">mon-fri .....  10am - 8pm</p>

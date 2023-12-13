@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main-container {
+    border: solid;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    width: 70px;
+}
+
+header a {
+    font-size: 22px;
+    color: gray;
+    font-weight: 600px;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav>* {
+    margin-right: 20px;
+}
+
+
+.auth {
+    display: flex;
+    align-items: center;
+}
+
+.auth>a {
+    margin-right: 10px;
+}
+
+.register {
+    border: solid black;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.drop {
+    width: 115px;
+    display: flex;
+}
+
+.arrow {
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+    background-image: url(./images/icon-arrow-down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.present-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    padding: 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    transition-delay: 0.2s;
+}
+
+.menu:hover {
+    visibility: visible;
+}
+
+.present-box:hover .menu {
+    visibility: visible;
+}

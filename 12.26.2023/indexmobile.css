@@ -66,4 +66,9 @@ width: 400px;
 right:40px;
 top: 370px;
 position: absolute;
+padding: 15px;
+}
+.imglogo{position: absolute;
+right: 167px;
+bottom: 247px;
 }

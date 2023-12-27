@@ -3,9 +3,7 @@ padding:0 ;
 box-sizing: border-box;}
 body{background-color:rgb(208, 208, 208) ;
 }
-main{
-   
-}
+
 header{border: solid yellow;
 height: 380px;
 background-image: url(./images/image-hero-mobile.jpg);
@@ -39,11 +37,8 @@ height: 0;
 background-color: white;
 right: 30px;
 top: 90px;
-box-shadow: 0px 9px 0px 200px rgba(0,0,0,0.48);
--webkit-box-shadow: 0px 9px 0px 200px rgba(0,0,0,0.48);
--moz-box-shadow: 0px 9px 0px 200px rgba(0,0,0,0.48);
 visibility: hidden;
-transition-delay: 0.9s;
+transition-delay: 0.5s;
 }
 menu{display: flex;
 flex-direction: column;

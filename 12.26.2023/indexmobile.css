@@ -3,9 +3,9 @@ padding:0 ;
 box-sizing: border-box;}
 body{background-color:rgb(208, 208, 208) ;
 }
-main{ height: 1000px;
-position: relative;    
-border: solid red; position: relative;}
+main{
+   
+}
 header{border: solid yellow;
 height: 380px;
 background-image: url(./images/image-hero-mobile.jpg);
@@ -32,7 +32,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: 30px;
 } 
-.pagemenu{border-radius: 10px;
+.pagemenu{border-radius: 5px;
     position: absolute;
 width: 255px;
 height: 0;
@@ -43,7 +43,7 @@ box-shadow: 0px 9px 0px 200px rgba(0,0,0,0.48);
 -webkit-box-shadow: 0px 9px 0px 200px rgba(0,0,0,0.48);
 -moz-box-shadow: 0px 9px 0px 200px rgba(0,0,0,0.48);
 visibility: hidden;
-transition-delay: 0.2s;
+transition-delay: 0.9s;
 }
 menu{display: flex;
 flex-direction: column;
@@ -109,7 +109,7 @@ font-size: 15px;
     gap: 15px;
     }
 
- .nom1,.nom2,.nom3{border: solid;
+ .nom1,.nom2,.nom3{
 text-align: center;
 padding: 20px;
 }   
@@ -126,3 +126,8 @@ border-radius: 5px;
     height: 15px;
     border-radius: 5px;
 }
+.contbox3{background-color: white;
+    height: 900px;
+    width: 400px;
+    border-radius: 20px;}
+

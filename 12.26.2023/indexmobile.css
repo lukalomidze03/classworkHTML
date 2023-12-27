@@ -58,17 +58,71 @@ font-size: 30px;
 
 .menubut:hover{visibility: visible;}
 .menubut:hover{background-image: url(./images/icon-close-menu.svg);}
+.downbox{
+    top: 330px;
+    right:40px;
+    position: absolute;
+display: flex;
+flex-direction: column;
+gap:20px ; 
+}
 
 .contbox1{background-color: white;
-border: solid;
 height: 280px;
 width: 400px;
-right:40px;
-top: 370px;
-position: absolute;
-padding: 15px;
+border-radius: 20px;
+position: relative;
 }
 .imglogo{position: absolute;
 right: 167px;
 bottom: 247px;
+}
+.boxtext{
+    padding: 5px;
+margin-top: 40px;
+display:flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+}
+.gentext,.pbox{text-align: center;}
+.buttons{display: flex;
+align-items: center;
+gap: 10px;
+}
+button{background-color:#3bb4ab;
+color: white;
+border: none;
+border-radius: 20px;
+height:50px;
+width: 160px;
+font-size: 15px;
+}
+.contbox2{background-color: white;
+    height: 480px;
+    width: 400px;
+    border-radius: 20px;
+    }
+    .nomeberbox{display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    }
+
+ .nom1,.nom2,.nom3{border: solid;
+text-align: center;
+padding: 20px;
+}   
+.nom1,.nom2{border-bottom:solid rgb(220 220 220) ;
+}
+.loading{background-color: rgb(220 220 220);
+width: 250px;
+height: 15px;
+display: flex;
+border-radius: 5px;
+}
+.loading2{background-color:#3bb4ab;
+    width: 150px;
+    height: 15px;
+    border-radius: 5px;
 }

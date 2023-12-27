@@ -1,0 +1,32 @@
+*{margin: 0;
+    padding:0 ;
+    box-sizing: border-box;}
+    body{background-color:rgb(208, 208, 208) ;
+    }
+    main{border: solid red;
+    height: 1000px;
+    }
+    header{border: solid yellow;
+    height: 380px;
+    background-image: url(./images/image-hero-desktop.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+    ;
+    }
+    .logo{border: solid;
+        width: 230px;
+        height: 40px;
+    background-image: url(./images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    .menu>a{color: white;
+    font-size: 20px;
+    }
+    .menu{display: flex;
+        gap: 10px;}

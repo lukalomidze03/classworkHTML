@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    width: 95%;
+    margin: 200px auto;    
+}
+
+.card1 {
+    background-color: #E28525;
+    
+    height: 500px;
+}
+
+.card2 {
+    background-color: #016972;
+    
+    height: 500px;
+}
+.card1{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card3{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card3 {
+    background-color: #00403F;
+    
+    height: 500px;
+}
+
+.carbox{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.carbox h1,p{color: white;}
+.carbox h1{font-size: 40px;}
+.carbox p{font-size: 20px;}
+.carbox button{width: 145px;
+height: 55px;
+background-color: white;
+font-size: 17px;
+border: none;
+border-radius: 30px;
+}
+.button1{color: #E28525;}
+.button2{color:#016972;}
+.button3{color:#00403F;}
+.button1:hover{
+    color: white;
+border: 1px solid white;
+background-color: rgba(240, 248, 255, 0);
+}
+.button2:hover{
+    color: white;
+border: 1px solid white;
+background-color: rgba(240, 248, 255, 0);
+}
+.button3:hover{
+    color: white;
+border: 1px solid white;
+background-color: rgba(240, 248, 255, 0);
+}
+@media only screen and (min-width: 800px) {
+
+    .cards {      
+        height: 500px;      
+        display: flex;
+        max-width: 1000px;
+    }
+    .card1,.card2,.card3{
+        width:100%;
+    }
+    .card1{
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+.card3{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+}

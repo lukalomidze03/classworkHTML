@@ -261,13 +261,14 @@ td {
 .copy {
     display: flex;
     align-items: center;
-    margin: auto;
+
 }
 
 img {
     width: 30px;
 }
 
+.dwnav{visibility: hidden;}
 @media only screen and (min-width: 800px) {
     .headerimg {
         border-bottom: red 2px solid;
@@ -280,6 +281,7 @@ img {
     .pmenu {
         visibility: hidden;
         width: 0;
+        position: absolute;
     }
 
     .pcmenubox {
@@ -319,4 +321,20 @@ img {
         margin: auto;
     }
 
+
+    .copy{display: flex;
+    gap: 20px;
+    }
+
+
+
+    .copy>a{font-family: font1;}
+
+    .bigconteiner5{margin: auto;}
+
+    .dwnav{display: flex;
+    gap: 20px;
+    visibility: inherit;
+    }
+    .dwnav>a{color: gray; font-size: 20px;}
 }
